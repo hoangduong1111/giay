@@ -1,0 +1,293 @@
+/* chung */
+:root {
+    --text: 'Roboto', sans-serif;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #fed700;
+}
+
+.header-mobile-list .header-mobile-text-color {
+    color: var(--primary-color);
+}
+
+/* find-shoes */
+.find-shoes {
+    background-color: #f1f1f1;
+    padding-top: 90px;
+}
+
+.find-shoes-content {
+    position: relative;
+}
+
+.find-shoes-content-text {
+    font-family: var(--text);
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.find-shoes-search {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.find-shoes-search-text {
+    font-family: var(--text);
+    font-size: 17px;
+    background-color: var(--white-color);
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 3px #666;
+    cursor: pointer;
+}
+
+.find-shoes-search-list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background-color: var(--white-color);
+    height: 200px;
+    overflow: auto;
+    box-shadow: 0 0 3px #666;
+    display: none;
+}
+
+.find-shoes-search-list-content {
+    list-style: none;
+}
+
+.find-shoes-search-item a {
+    font-family: var(--text);
+    font-size: 17px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--black-color);
+    display: block;
+}
+
+.find-shoes-search-item:hover a {
+    color: white;
+    background-color: #5897fb;
+}
+
+.find-shoes-search .find-shoes-search-text:focus ~ .find-shoes-search-list {
+    display: block;
+}
+
+.find-shoes-content-icon {
+    position: absolute;
+    top: 65%;
+    left: 90%;
+    color: #666;
+}
+
+.find-shoes-content-search {
+    width: 100%;
+    height: 45px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+    text-decoration: none;
+}
+
+.find-shoes-content-search-text {
+    color: var(--black-color);
+    font-family: var(--text);
+    font-size: 20px;
+}
+
+.find-shoes-content-search i {
+    color: var(--black-color);
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.find-shoes-content-search:hover {
+    background-color: var(--black-color);
+    border: 1px solid var(--primary-color);
+}
+
+.find-shoes-content-search:hover .find-shoes-content-search-text,
+.find-shoes-content-search:hover i {
+    color: var(--primary-color);
+}
+
+.product-text {
+    list-style: none;
+    display: flex;
+    padding: 30px 0 20px 0;
+}
+
+.product-text-item a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-family: var(--text);
+    font-size: 14px;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+
+.product-text-item-icon {
+    padding-left: 5px;
+}
+
+.product-text-item .product-text-item-color {
+    color: #ec2c1e;
+}
+
+.product-list-item {
+    border: 1px solid transparent;
+    transition: 0.3s linear;
+    margin-top: 10px;
+}
+
+.product-list-item:hover {
+    border: 1px solid #ccc;
+}
+
+.product-list-item-img {
+    padding-top: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.product-list-item-content {
+    padding: 0 15px;
+}
+
+.product-item-name {
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    font-family: var(--text);
+    font-size: 17px;
+    font-weight: 700;
+    color: #5b5b5b;
+    transition: .3s linear;
+}
+
+.product-item-name:hover {
+    color: var(--primary-color);
+}
+
+.product-list-item-star {
+    color: #ffb727;
+    font-size: 12px;
+    padding: 30px 0 10px 0;
+}
+
+.product-list-item-prince {
+    color: #5b5b5b;
+    font-family: var(--text);
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.product-pagination {
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.product-pagination-item {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    transition: .4s linear;
+}
+
+.product-pagination-item-number {
+    display: block;
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: var(--text);
+}
+
+.product-pagination-item:hover {
+    background-color: var(--primary-color);
+}
+
+.product-pagination-item:hover .product-pagination-item-number {
+    color: var(--white-color);
+}
+
+.product-pagination-item:first-child {
+    background-color: var(--primary-color);
+}
+
+.product-banner {
+    padding: 30px 0 15px 0;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.product-banner-img {
+    width: 100%;
+}
+
+.product-banner-new-text {
+    font-family: var(--text);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    color: #626262;
+    padding: 20px 0 10px 0;
+}
+
+.product-banner-new-content {
+    display: flex;
+    margin-top: 10px;
+}
+
+.product-banner-new-img img {
+    width: 80px;
+    height: 80px;
+}
+
+.product-banner-new-list {
+    padding: 0 10px;
+}
+
+.product-banner-new-item {
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--text);
+    transition: .3s ease;
+}
+
+.product-banner-new-item:hover {
+    color: var(--primary-color);
+}
+
+.product-banner-new-item2 {
+    font-size: 12px;
+    color: #5b5b5b;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 5px;
+}
+
+
+@media (max-width: 420px) {
+    .product-text {
+        margin-top: 65px;
+    }
+}

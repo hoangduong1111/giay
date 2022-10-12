@@ -1,0 +1,132 @@
+@media (max-width: 420px) {
+    nav .header-logo {
+        width: 100%;
+        margin-bottom: -15px;
+        text-align: center;
+    }
+
+    .img-item {
+        margin-top: 157px;
+    }
+}
+
+@media (max-width: 739px) {
+    .padding {
+        padding: 0 15px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+
+    .header-mobile > i {
+        display: block;
+    }
+    
+    .header-mobile-icon {
+        display: block;
+    }
+
+    .product-new {
+        padding-left: 20px;
+    }
+
+    .register-login-text {
+        text-align: center;
+    }
+
+    .register-mail-btn {
+        width: 100%;
+    }
+
+    .register-mail-register {
+        width: 100px;
+        right: 7px;
+    }
+
+    .register-voucher {
+        text-align: center;
+    }
+
+    .register-voucher-text {
+        font-size: 16px;
+    }
+
+    .register-voucher span {
+        font-size: 20px
+    }
+
+    .footer-information {
+        text-align: center;
+    }
+
+    .footer-support {
+        text-align: center;
+    }
+
+    .footer-fanpage {
+        text-align: center;
+    }
+
+    .footer-license {
+        display: block;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) { 
+    .menu {
+        display: none;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+
+    .header-mobile > i {
+        display: block;
+    }
+    
+    .header-mobile-icon {
+        display: block;
+    }
+
+    .header-search input {
+        padding: 15px 15px;
+    }
+
+    .header-search-icon {
+        right: 15px;
+        top: 38px;
+    }
+
+    .register-login-text {
+        text-align: center;
+    }
+
+    .register-mail {
+        line-height: 0px;
+    }
+
+    .register-mail-btn {
+        width: 100%;
+    }
+
+    .register-mail-register {
+        right: 10px;
+        top: 5px;
+    }
+
+    .register-voucher {
+        text-align: center;
+    }
+
+    #backtop {
+        bottom: 15%;
+    }
+}
